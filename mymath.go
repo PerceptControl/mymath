@@ -41,3 +41,6 @@ func Round(x float64) float64 {
 func Mod(x, y float64) float64 {
 	return math.Mod(x, y)
 }
+func Abs(x float64) float64 {
+	return math.Abs(x)
+}
