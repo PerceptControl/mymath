@@ -29,7 +29,15 @@ func Min(x float64, y float64) float64 {
 func Yn(x int, y float64) float64 {
 	return math.Yn(x, y)
 }
-
-func Abs(x float64) float64 {
-	return math.Abs(x)
+func Atan(x float64) float64 {
+	return math.Atan(x)
+}
+func Tan(x float64) float64 {
+	return math.Tan(x)
+}
+func Round(x float64) float64 {
+	return math.Round(x)
+}
+func Mod(x, y float64) float64 {
+	return math.Mod(x, y)
 }
